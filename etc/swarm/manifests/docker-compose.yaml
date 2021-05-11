@@ -1,1 +1,7 @@
 # Hola
+services:
+  anagrams:
+    image: ricardolopezsanchez/ibm-anagrams:0.1
+    volumes:
+      - /tmp/ibm-anagrams/data:/data:ro
+version: '3.8'
