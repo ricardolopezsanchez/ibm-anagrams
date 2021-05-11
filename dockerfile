@@ -1,6 +1,6 @@
-FROM Python
+FROM python
 WORKDIR /app
 COPY src/anagrams.py /app
 # Lo siguiente esta fuera del contenedor
-CMD Python anagrams.py
+CMD python anagrams.py
 VOLUME /data
